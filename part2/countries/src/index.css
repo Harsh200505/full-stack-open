@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+
+input {
+  margin-left: 0.5rem;
+}
+
+.flag {
+  border: 1px solid #ccc;
+  max-width: 240px;
+}
+
+.weather-icon {
+  font-size: 5rem;
+}
+
+.error {
+  color: red;
+}
+
