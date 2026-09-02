@@ -1,0 +1,29 @@
+GET http://localhost:3001/api/persons
+
+###
+GET http://localhost:3001/info
+
+###
+GET http://localhost:3001/api/persons/REPLACE_WITH_ID
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Harsh Wardhan",
+  "number": "040-12345678"
+}
+
+###
+PUT http://localhost:3001/api/persons/REPLACE_WITH_ID
+Content-Type: application/json
+
+{
+  "name": "Harsh Wardhan",
+  "number": "044-87654321"
+}
+
+###
+DELETE http://localhost:3001/api/persons/REPLACE_WITH_ID
+

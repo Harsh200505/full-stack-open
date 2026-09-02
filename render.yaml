@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: fullstackopen-phonebook-harsh200505
+    runtime: node
+    rootDir: part3/phonebook-backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+
