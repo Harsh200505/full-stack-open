@@ -18,3 +18,4 @@ Online application: **add the deployed Render URL here**
 Do not mark exercises 3.10, 3.12–3.21 as submitted until MongoDB Atlas is
 configured and the deployed application has been tested.
 
+Part 3 deployed application: https://full-stack-open-1-39hr.onrender.com/
