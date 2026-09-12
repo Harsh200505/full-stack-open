@@ -1,0 +1,33 @@
+### Create a user
+POST http://localhost:3003/api/users
+Content-Type: application/json
+
+{
+  "username": "harsh",
+  "name": "Harsh Wardhan",
+  "password": "secret123"
+}
+
+### Login
+POST http://localhost:3003/api/login
+Content-Type: application/json
+
+{
+  "username": "harsh",
+  "password": "secret123"
+}
+
+### Get blogs
+GET http://localhost:3003/api/blogs
+
+### Create a blog - replace TOKEN
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer TOKEN
+
+{
+  "title": "Full Stack Open",
+  "author": "University of Helsinki",
+  "url": "https://fullstackopen.com",
+  "likes": 10
+}
